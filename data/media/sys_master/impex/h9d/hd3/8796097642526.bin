@@ -1,0 +1,36 @@
+# ImpEx for Importing SportModels into DataBase
+$productCatalog = sportsProductCatalog
+$catalogVersion = catalogversion(catalog(id[default=$productCatalog]), version[default='Online'])[unique=true, default=$productCatalog:Online]
+$baseProduct = baseProduct(code, $catalogVersion)
+$approved = approvalstatus(code)[default='approved']
+$medias = medias(code, $catalogVersion)
+$siteResource = jar:customers.constants.CustomersConstants&/customers/sportimages
+
+# Product catalog
+INSERT_UPDATE Catalog; id[unique = true]
+                     ; $productCatalog
+
+# Product cataog version
+INSERT_UPDATE CatalogVersion; catalog(id)[unique = true]; version[unique = true]; active; languages(isoCode); readPrincipals(uid)
+                            ; $productCatalog           ; Online                ; true  ; en                ; employeegroup
+
+INSERT_UPDATE Media; mediaFormat(qualifier); code[unique = true]; @media[translator = de.hybris.platform.impex.jalo.media.MediaDataTranslator]; mime[default = 'image/jpeg']; $catalogVersion
+                   ; sportDetail            ; sport1.jpg         ; $siteResource/details.jpg                                                   ;                             ;
+                   ; sportDetail            ; sport2.jpg         ; $siteResource/details.jpg                                                   ;                             ;
+                   ; sportDetail            ; sport3.jpg         ; $siteResource/details.jpg                                                   ;                             ;
+INSERT_UPDATE MediaContainer; qualifier[unique = true]; $medias    ; $catalogVersion
+                            ; sport1Image             ; sport1.jpg ;
+                            ; sport2Image             ; sport2.jpg ;
+                            ; sport3Image             ; sport3.jpg ;
+
+# Insert Products
+INSERT_UPDATE Product; code[unique = true]; name[lang = en]; name[lang = pl]; $catalogVersion; $approved
+                     ; 201801             ; product1       ; produkt1
+                     ; 201802             ; product2       ; produkt2
+                     ; 201803             ; product3       ; produkt3
+
+#Insert SportModels
+INSERT_UPDATE Sport; code[unique = true]; name[lang = en]; name[lang = pl]; products(code); image(qualifier)
+                   ; S001               ; sport1         ; sport1         ; 201801,201802 ; sport1Image
+                   ; S002               ; sport2         ; sport2         ; 201802,201803 ; sport2Image
+                   ; S003               ; sport3         ; sport3         ; 201801,201803 ; sport3Image

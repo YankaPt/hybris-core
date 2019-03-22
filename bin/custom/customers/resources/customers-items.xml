@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
+
+ This software is the confidential and proprietary information of SAP
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with SAP.
+-->
+
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="items.xsd">
+    <relations>
+        <relation code="Product2Sport" localized="false" autocreate="true" generate="false">
+            <deployment table="Product2Sport" typecode="30115" />
+            <sourceElement qualifier="products" type="Product" cardinality="many">
+                <modifiers read="true" write="true" search="true" optional="true" />
+            </sourceElement>
+            <targetElement qualifier="sport" type="Sport" cardinality="many">
+                <modifiers read="true" write="true" search="true" optional="true" />
+            </targetElement>
+        </relation>
+        <relation code="Sport2Customer" localized="false" autocreate="true" generate="false">
+            <deployment table="Sport2Customer" typecode="30116" />
+            <sourceElement qualifier="sports" type="Sport" cardinality="many">
+                <modifiers read="true" write="true" search="true" optional="true"/>
+            </sourceElement>
+            <targetElement qualifier="customer" type="Customer" cardinality="many">
+                <modifiers read="true" write="true" search="true" optional="true" />
+            </targetElement>
+        </relation>
+    </relations>
+    <itemtypes>
+        <itemtype generate="true" code="Sport" autocreate="true">
+            <deployment table="Sports" typecode="10115"/>
+            <attributes>
+                <attribute qualifier="code" type="java.lang.String">
+                    <description>short unique code of sport model</description>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="name" type="localized:java.lang.String">
+                    <description>name of sport model</description>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="image" type="MediaContainer">
+                    <description>picture of sport in different formats</description>
+                    <persistence type="property" />
+                </attribute>
+            </attributes>
+        </itemtype>
+        <itemtype generate="false" code="Customer" autocreate="false">
+            <attributes>
+                <attribute qualifier="quantityOfSport" type="java.lang.Long">
+                    <persistence type="dynamic" attributeHandler="quantityOfSportAttributeHandler"/>
+                    <modifiers read="true" write="false"/>
+                </attribute>
+            </attributes>
+        </itemtype>
+    </itemtypes>
+</items>

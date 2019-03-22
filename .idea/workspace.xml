@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8830e41-fc02-453b-8fbe-90cf0245f1ac" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/concerttours/web/webroot/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/config/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/config/.settings/" />
+    <ignored path="$PROJECT_DIR$/config/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/config/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/config/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/config/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/config/bower_components/" />
+    <ignored path="$PROJECT_DIR$/config/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/config/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/config/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/config/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/config/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/config/node_modules/" />
+    <ignored path="$PROJECT_DIR$/config/testclasses/" />
+    <ignored path="$PROJECT_DIR$/config/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/config/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/config/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/custom/customers/web/webroot/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/advancedsavedquery/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-optional/auditreportservices/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-backoffice/backoffice/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/catalog/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/comments/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/commons/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/core/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/deliveryzone/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/europe1/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/hac/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/impex/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/maintenanceweb/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/mediaweb/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/oauth2/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/paymentstandard/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/bootstrap/modelclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/tomcat/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-platform-backoffice/platformbackoffice/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/platformservices/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/processing/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/scripting/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/testweb/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/validation/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/platform/ext/workflow/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yempty/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/.externalToolBuilders/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/.settings/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/acceleratoraddon/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/acceleratoraddon/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/acceleratoraddon/web/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/backoffice/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/bower_components/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/commonweb/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/commonweb/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/commonweb/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/eclipsebin/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/hac/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/jsTarget/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/node_modules/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/testclasses/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/web/addonsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/web/commonwebsrc/" />
+    <ignored path="$PROJECT_DIR$/bin/ext-template/yhacext/web/testclasses/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/custom/customers/web/webroot/WEB-INF/views/sport.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bin/custom/customers/web/webroot/WEB-INF/views/sport.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="[y] Custom" pattern="file[group:Custom]:*//*" />
+    <scope name="[y] Custom Type System Files" pattern="file[group:Custom]:*//*-items.xml" />
+    <scope name="[y] Custom Type System, Beans and Impex files" pattern="file[group:Custom]:*//*-items.xml||file[group:Custom]:*//*-beans.xml||file[group:Custom]:*//*.impex" />
+    <scope name="[y] Platform" pattern="file[group:Platform]:*//*" />
+    <scope name="[y] Hybris" pattern="file[group:Hybris]:*//*" />
+    <scope name="[y] Platform Hybris" pattern="file[group:Platform]:*//*||file[group:Hybris]:*//*" />
+    <scope name="[y] All Type System Files" pattern="file:*//*-items.xml" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="97" />
+    <option name="y" value="119" />
+    <option name="width" value="1582" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="concerttours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="concerttours" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="concerttours" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="concerttours" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="concerttours" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hybris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="customers" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Hybris Tests.Integration Tests">
+    <configuration default="true" type="AntRunConfiguration">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="showMultipleContextsPanel" value="false" />
+    <option name="showProfilesPanel" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8830e41-fc02-453b-8fbe-90cf0245f1ac" name="Default Changelist" comment="" />
+      <created>1553276549753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553276549753</updated>
+      <workItem from="1553276552550" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="635000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31710017" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Hybris Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990458" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5009542" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" weight="0.32972974" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Hybris" side_tool="true" weight="0.32982844" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24958494" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.50702703" side_tool="true" weight="0.14997233" />
+      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.49297297" weight="0.08854455" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="true" />
+    <buildFile url="file://$PROJECT_DIR$/bin/platform/build.xml">
+      <runInBackground value="false" />
+      <targetFilters>
+        <filter targetName="build" isVisible="true" />
+        <filter targetName="deploy" isVisible="false" />
+        <filter targetName="ear" isVisible="false" />
+        <filter targetName="all" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="cleanear" isVisible="false" />
+        <filter targetName="dist" isVisible="false" />
+        <filter targetName="pmd" isVisible="true" />
+        <filter targetName="sonar" isVisible="true" />
+        <filter targetName="sonarsingle" isVisible="false" />
+        <filter targetName="sonarcheck" isVisible="false" />
+        <filter targetName="classpathgen" isVisible="false" />
+        <filter targetName="sourcezip" isVisible="false" />
+        <filter targetName="extgen" isVisible="true" />
+        <filter targetName="modulegen" isVisible="true" />
+        <filter targetName="initialize" isVisible="true" />
+        <filter targetName="initializetenantdb" isVisible="false" />
+        <filter targetName="droptypesystem" isVisible="false" />
+        <filter targetName="createtypesystem" isVisible="false" />
+        <filter targetName="server" isVisible="false" />
+        <filter targetName="updatesystem" isVisible="true" />
+        <filter targetName="executeScript" isVisible="false" />
+        <filter targetName="importImpex" isVisible="false" />
+        <filter targetName="clearOrphanedTypes" isVisible="false" />
+        <filter targetName="sanitycheck" isVisible="false" />
+        <filter targetName="copyFromTemplate" isVisible="false" />
+        <filter targetName="createPlatformImageStructure" isVisible="false" />
+        <filter targetName="webservice_nature" isVisible="false" />
+        <filter targetName="yunitinit" isVisible="true" />
+        <filter targetName="yunitupdate" isVisible="false" />
+        <filter targetName="apidoc" isVisible="false" />
+        <filter targetName="unittests" isVisible="true" />
+        <filter targetName="demotests" isVisible="true" />
+        <filter targetName="integrationtests" isVisible="true" />
+        <filter targetName="performancetests" isVisible="true" />
+        <filter targetName="manualtests" isVisible="true" />
+        <filter targetName="bugprooftests" isVisible="true" />
+        <filter targetName="localizationtest" isVisible="true" />
+        <filter targetName="typecodetest" isVisible="true" />
+        <filter targetName="alltests" isVisible="true" />
+        <filter targetName="allwebtests" isVisible="true" />
+        <filter targetName="codequality" isVisible="false" />
+        <filter targetName="updateMavenDependencies" isVisible="false" />
+        <filter targetName="cleanMavenDependencies" isVisible="false" />
+        <filter targetName="testMavenDependencies" isVisible="false" />
+        <filter targetName="extensionsxml" isVisible="false" />
+        <filter targetName="localproperties" isVisible="false" />
+        <filter targetName="generateLicenseOverview" isVisible="false" />
+        <filter targetName="customize" isVisible="true" />
+        <filter targetName="production" isVisible="false" />
+        <filter targetName="runcronjob" isVisible="false" />
+        <filter targetName="clearAdministrationLock" isVisible="false" />
+        <filter targetName="startHybrisServer" isVisible="true" />
+        <filter targetName="startAdminServer" isVisible="true" />
+        <filter targetName="executesql" isVisible="false" />
+        <filter targetName="updateSpringXsd" isVisible="false" />
+        <filter targetName="distWithSources" isVisible="false" />
+        <filter targetName="deployDist" isVisible="false" />
+        <filter targetName="deployDistWithSources" isVisible="false" />
+        <filter targetName="createConfig" isVisible="false" />
+        <filter targetName="unzip_file" isVisible="false" />
+        <filter targetName="startLogging" isVisible="false" />
+        <filter targetName="stopLogging" isVisible="false" />
+        <filter targetName="zipproductionpackage" isVisible="false" />
+        <filter targetName="unzipproductionpackage" isVisible="false" />
+      </targetFilters>
+      <treeViewAnsiColor value="true" />
+      <treeViewCollapseTarget value="false" />
+      <verbose value="false" />
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/concerttours/build.xml">
+      <runInBackground value="false" />
+      <targetFilters>
+        <filter targetName="apidoc" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="build" isVisible="true" />
+        <filter targetName="deploy" isVisible="false" />
+        <filter targetName="jspcompile" isVisible="false" />
+        <filter targetName="jspclean" isVisible="false" />
+        <filter targetName="all" isVisible="false" />
+        <filter targetName="checkstyle" isVisible="false" />
+        <filter targetName="dist_source" isVisible="false" />
+        <filter targetName="dist" isVisible="false" />
+        <filter targetName="sourcezip" isVisible="false" />
+        <filter targetName="classpathgen" isVisible="false" />
+        <filter targetName="gensource" isVisible="false" />
+        <filter targetName="build_war" isVisible="false" />
+        <filter targetName="clean_war" isVisible="false" />
+        <filter targetName="pmd" isVisible="false" />
+        <filter targetName="sonar" isVisible="false" />
+        <filter targetName="yunit" isVisible="false" />
+        <filter targetName="yunitweb" isVisible="false" />
+        <filter targetName="yunitinit" isVisible="false" />
+        <filter targetName="unittests" isVisible="false" />
+        <filter targetName="demotests" isVisible="false" />
+        <filter targetName="integrationtests" isVisible="false" />
+        <filter targetName="performancetests" isVisible="false" />
+        <filter targetName="manualtests" isVisible="false" />
+        <filter targetName="alltests" isVisible="false" />
+        <filter targetName="codequality" isVisible="false" />
+        <filter targetName="localizationtest" isVisible="false" />
+        <filter targetName="typecodetest" isVisible="false" />
+        <filter targetName="testMavenDependencies" isVisible="false" />
+        <filter targetName="updateMavenDependencies" isVisible="false" />
+        <filter targetName="uml" isVisible="false" />
+        <filter targetName="uml_simple" isVisible="false" />
+        <filter targetName="clean_uml" isVisible="false" />
+        <filter targetName="webservice_nature" isVisible="false" />
+        <filter targetName="unzip_file" isVisible="false" />
+        <filter targetName="startLogging" isVisible="false" />
+        <filter targetName="stopLogging" isVisible="false" />
+        <filter targetName="zipproductionpackage" isVisible="false" />
+        <filter targetName="unzipproductionpackage" isVisible="false" />
+      </targetFilters>
+      <treeViewAnsiColor value="true" />
+      <treeViewCollapseTarget value="false" />
+      <verbose value="false" />
+      <expanded value="true" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/bin/custom/customers/build.xml">
+      <runInBackground value="false" />
+      <targetFilters>
+        <filter targetName="apidoc" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="build" isVisible="true" />
+        <filter targetName="deploy" isVisible="false" />
+        <filter targetName="jspcompile" isVisible="false" />
+        <filter targetName="jspclean" isVisible="false" />
+        <filter targetName="all" isVisible="false" />
+        <filter targetName="checkstyle" isVisible="false" />
+        <filter targetName="dist_source" isVisible="false" />
+        <filter targetName="dist" isVisible="false" />
+        <filter targetName="sourcezip" isVisible="false" />
+        <filter targetName="classpathgen" isVisible="false" />
+        <filter targetName="gensource" isVisible="false" />
+        <filter targetName="build_war" isVisible="false" />
+        <filter targetName="clean_war" isVisible="false" />
+        <filter targetName="pmd" isVisible="false" />
+        <filter targetName="sonar" isVisible="false" />
+        <filter targetName="yunit" isVisible="false" />
+        <filter targetName="yunitweb" isVisible="false" />
+        <filter targetName="yunitinit" isVisible="false" />
+        <filter targetName="unittests" isVisible="false" />
+        <filter targetName="demotests" isVisible="false" />
+        <filter targetName="integrationtests" isVisible="false" />
+        <filter targetName="performancetests" isVisible="false" />
+        <filter targetName="manualtests" isVisible="false" />
+        <filter targetName="alltests" isVisible="false" />
+        <filter targetName="codequality" isVisible="false" />
+        <filter targetName="localizationtest" isVisible="false" />
+        <filter targetName="typecodetest" isVisible="false" />
+        <filter targetName="testMavenDependencies" isVisible="false" />
+        <filter targetName="updateMavenDependencies" isVisible="false" />
+        <filter targetName="uml" isVisible="false" />
+        <filter targetName="uml_simple" isVisible="false" />
+        <filter targetName="clean_uml" isVisible="false" />
+        <filter targetName="webservice_nature" isVisible="false" />
+        <filter targetName="unzip_file" isVisible="false" />
+        <filter targetName="startLogging" isVisible="false" />
+        <filter targetName="stopLogging" isVisible="false" />
+        <filter targetName="zipproductionpackage" isVisible="false" />
+        <filter targetName="unzipproductionpackage" isVisible="false" />
+      </targetFilters>
+      <treeViewAnsiColor value="true" />
+      <treeViewCollapseTarget value="false" />
+      <verbose value="false" />
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/custom/concerttours/web/webroot/WEB-INF/views/TourDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/custom/concerttours/web/webroot/WEB-INF/views/BandDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/custom/customers/web/webroot/WEB-INF/views/sport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

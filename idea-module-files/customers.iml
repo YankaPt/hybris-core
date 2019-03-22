@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CUSTOM" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="customersspring" name="customersspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/config/customers-web-app-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/custom/customers/resources/customers-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/config/customers-spring-security-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/custom/customers/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/resources" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/web/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/custom/customers/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/custom/customers/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1811/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/custom/customers">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/custom/customers/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/custom/customers/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

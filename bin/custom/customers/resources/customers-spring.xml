@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
+
+ This software is the confidential and proprietary information of SAP
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with SAP.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="customers"/>
+
+    <bean id="customersSystemSetup" class="customers.setup.CustomersSystemSetup">
+        <!-- constructor arg injection example -->
+        <constructor-arg ref="customersService"/>
+    </bean>
+
+    <bean id="customersCustomSetup" class="customers.setup.CustomersCustomSetup" >
+        <property name="importService" ref="importService"/>
+    </bean>
+
+    <bean id="customersService" class="customers.service.impl.DefaultCustomersService">
+        <!-- setter injection example -->
+        <property name="modelService" ref="modelService"/>
+        <property name="mediaService" ref="mediaService"/>
+        <property name="flexibleSearchService" ref="flexibleSearchService"/>
+    </bean>
+
+    <alias name = "defaultSportService" alias = "sportService" />
+    <bean id = "defaultSportService" class = "customers.service.impl.DefaultSportService" >
+        <property name = "sportDAO" ref = "sportDAO" />
+    </bean>
+
+    <alias name = "defaultCustomerService" alias = "customerService" />
+    <bean id = "defaultCustomerService" class = "customers.service.impl.DefaultCustomerService" >
+        <property name = "customerDAO" ref = "customerDAO" />
+    </bean>
+
+    <bean id="modelToDTOConverter" class="customers.converters.ModelToDTOConverter">
+        <property name="mediaService" ref="mediaService" />
+    </bean>
+
+    <alias name = "defaultSportFacade" alias = "sportFacade" />
+    <bean id = "defaultSportFacade" class ="customers.facades.impl.DefaultSportFacade" >
+        <property name = "sportService" ref = "sportService" />
+        <property name="modelToDTOConverter" ref="modelToDTOConverter" />
+    </bean>
+
+    <alias name = "defaultCustomerFacade" alias = "customerFacade" />
+    <bean id = "defaultCustomerFacade" class ="customers.facades.impl.DefaultCustomerFacade" >
+        <property name = "customerService" ref = "customerService" />
+        <property name="modelToDTOConverter" ref="modelToDTOConverter" />
+    </bean>
+
+    <bean id="quantityOfSportAttributeHandler" class="customers.attributehandlers.QuantityOfSportAttributeHandler"/>
+
+    <bean id="customerEventListener" class="customers.events.NewCustomerEventListener" parent="abstractEventListener">
+        <property name="modelService" ref="modelService" />
+    </bean>
+
+    <bean id="newCustomerInterceptor" class="customers.interceptors.NewCustomerInterceptor" />
+    <bean id="newCustomerInterceptorMapping" class="de.hybris.platform.servicelayer.interceptor.impl.InterceptorMapping">
+        <property name="interceptor" ref="newCustomerInterceptor" />
+        <property name="typeCode" value="Customer" />
+    </bean>
+    <bean id="sendQuantityOfSportsJob" class="customers.jobs.SendQuantityOfSportsJob" parent="abstractJobPerformable">
+        <property name="customerFacade" ref="customerFacade" />
+    </bean>
+			
+</beans>

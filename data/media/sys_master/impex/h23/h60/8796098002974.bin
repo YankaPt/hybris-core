@@ -1,0 +1,3 @@
+INSERT_UPDATE Customer; uid[unique = true]; customerID; sports(code)
+                      ; C001              ; C001      ; S001,S002
+                      ; C002              ; C002      ; S002,S003
